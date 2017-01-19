@@ -14,7 +14,7 @@ html {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   position: absolute;
-  transition: all 200ms;
+  transition: all 300ms;
 }
 
 .polaroid:first-child {
@@ -22,7 +22,7 @@ html {
   z-index: 1;
   left: 20%;
   top: 100px;
-  transition: all 200ms;
+  transition: all 300ms;
 }
 
 .polaroid:nth-child(2) {
@@ -30,7 +30,7 @@ html {
   z-index: 3;
   left: 30%;
   top: 150px;
-  transition: all 200ms;
+  transition: all 300ms;
 }
 
 .polaroid:nth-child(3) {
@@ -38,12 +38,13 @@ html {
   z-index: 2;
   left: 36%;
   top: 100px;
-  transition: all 200ms;
+  transition: all 300ms;
 }
 
 .polaroid:hover {
   z-index: 1000;
   transform: rotate(0);
+  box-shadow: 2px 3px 5px #000;
 }
 
 .polaroid > img {
